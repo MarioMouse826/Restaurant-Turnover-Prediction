@@ -1,16 +1,1 @@
 
-Model Performance after Hyperparameter Tuning
-Random Forest Regressor (Tuned):
-
-Expected RMSE: Improved from the initial ~₹19.81M, likely closer to ₹17M-₹18M after tuning.
-Extra Trees Regressor (Tuned):
-
-Expected RMSE: Improved from the initial ~₹19.58M, likely closer to ₹16M-₹17M, as it was initially better than Random Forest.
-Decision Tree Regressor:
-
-This model isn't part of hyperparameter tuning since ensemble methods outperform it significantly.
-Predictions
-The final predictions for the test dataset were generated using the Extra Trees Regressor, as it showed the best performance in both initial and tuned evaluations.
-The output file contains 500 entries, with columns:
-Registration Number
-Annual Turnover
